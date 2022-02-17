@@ -302,11 +302,6 @@ section {
   transition: all 0.5s;
 }
 
-.container-fluid {
-  background-color: #1d1c1a;
-  margin-top: 0;
-}
-
 .card {
   background-color: #2b2a28;
 }
@@ -431,5 +426,10 @@ section {
 
   .mobile-dnone {
     display: none;
+  }
+
+  .container-fluid {
+    background-color: #1d1c1a;
+    margin-top: 0;
   }
 }
