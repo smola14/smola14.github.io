@@ -424,12 +424,14 @@ section {
     grid-template-columns: repeat(2, 45%);
   }
 
-  .mobile-dnone {
-    display: none;
-  }
-
   .container-fluid {
     background-color: #1d1c1a;
     margin-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile-break {
+    display: none;
   }
 }
