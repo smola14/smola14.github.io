@@ -428,4 +428,8 @@ section {
   .mygrid {
     grid-template-columns: repeat(2, 45%);
   }
+
+  .mobile-dnone {
+    display: none;
+  }
 }
