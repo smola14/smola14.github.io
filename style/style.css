@@ -233,6 +233,12 @@ form {
   max-width: 100%;
 }
 
+#about-me,
+#skills,
+#projects {
+  margin: 12.5em 0;
+}
+
 .fa-brands {
   color: #fff;
   font-size: 1.5em;
