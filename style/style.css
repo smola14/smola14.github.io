@@ -40,7 +40,7 @@ img {
 }
 
 .mb-6 {
-  margin-bottom: 144px !important;
+  margin-bottom: 88px !important;
 }
 
 h2 {
@@ -97,12 +97,6 @@ h2 span {
 
 #skills .row div {
   padding: 1.25em 0.625em;
-}
-
-.display-1,
-.display-2 {
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 .navbar {
