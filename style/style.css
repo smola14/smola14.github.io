@@ -39,6 +39,10 @@ img {
   margin-right: auto;
 }
 
+.mb-6 {
+  margin-bottom: 144px !important;
+}
+
 h2 {
   font-family: 'PT Serif', serif;
   text-transform: uppercase;
