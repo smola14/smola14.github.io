@@ -1,0 +1,59 @@
+//
+//TYPOGRAPHY
+//----------------------------------------------------------------
+h2 {
+  font-family: 'PT Serif', serif;
+  text-transform: uppercase;
+
+  & span {
+    border-bottom: 5px solid $color-primary;
+  }
+}
+
+#about-me {
+  & h4 {
+    font-weight: bold;
+
+    & span {
+      border-bottom: 3px solid $color-primary;
+    }
+  }
+
+  & em {
+    color: $color-primary;
+  }
+}
+
+//#main
+#title {
+  margin-top: em(70);
+
+  & h2 {
+    text-transform: uppercase;
+  }
+
+  & h3 {
+    opacity: 0.1;
+    font-size: em(150);
+  }
+
+  & h5 {
+    color: $color-primary;
+    font-family: 'PT Serif', serif;
+  }
+}
+
+#skills {
+  & i {
+    font-size: em(65);
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  & p {
+    margin-top: em(5);
+    font-weight: bold;
+  }
+}

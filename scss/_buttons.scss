@@ -1,0 +1,45 @@
+//
+//BUTTONS
+//----------------------------------------------------------------
+
+.btn-primary {
+  &:active,
+  &:visited,
+  &:focus {
+    background-color: $color-secondary !important;
+    border: em(2) solid $color-primary;
+    color: $color-primary;
+  }
+
+  &:hover {
+    background-color: $color-primary !important;
+    border: em(2) solid $color-secondary;
+    color: $color-secondary;
+    transition: all 0.5s;
+  }
+
+  &:not(hover) {
+    transition: all 0.5s;
+  }
+}
+
+.btn-secondary {
+  &:active,
+  &:visited,
+  &:focus {
+    background-color: lighten($color-secondary, 5%) !important;
+    border: em(2) solid $color-primary;
+    color: $color-primary;
+  }
+
+  &:hover {
+    background-color: $color-primary !important;
+    border: em(2) solid lighten($color-secondary, 5%);
+    color: lighten($color-secondary, 5%);
+    transition: all 0.5s;
+  }
+
+  &:not(hover) {
+    transition: all 0.5s;
+  }
+}

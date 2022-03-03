@@ -1,0 +1,25 @@
+//
+//FOOTER
+//----------------------------------------------------------------
+path {
+  fill: lighten($color-secondary, 5%);
+}
+
+#footer {
+  background-color: lighten($color-secondary, 5%);
+
+  & h4 {
+    color: $color-primary;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+  }
+}
+
+form {
+  width: 60%;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: em(7);
+}
