@@ -95,6 +95,16 @@ h2 span {
   font-weight: bold;
 }
 
+#skills .row div {
+  padding: 1.25em 0.625em;
+}
+
+.display-1,
+.display-2 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .navbar {
   text-transform: uppercase;
 }

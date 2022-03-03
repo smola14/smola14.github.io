@@ -56,4 +56,14 @@ h2 {
     margin-top: em(5);
     font-weight: bold;
   }
+
+  & .row div {
+    padding: em(20) em((10));
+  }
+}
+
+.display-1,
+.display-2 {
+  margin: 0 !important;
+  padding: 0 !important;
 }
