@@ -35,3 +35,25 @@
 .lead {
   text-align: justify;
 }
+
+#projects {
+  & .row .card {
+    background: darken($color-secondary, 1.5);
+    padding: em(10);
+    width: em(300);
+    height: em(260);
+  }
+  & .card-link {
+    position: absolute;
+    margin-bottom: em(20);
+    bottom: 0;
+    color: $color-primary;
+  }
+  & .card-link-github {
+    position: absolute;
+    margin: 0 em(20) em(20) 0;
+    bottom: 0;
+    right: 0;
+    color: $color-primary;
+  }
+}

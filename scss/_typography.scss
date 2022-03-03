@@ -61,3 +61,10 @@ h2 {
     padding: em(20) em((10));
   }
 }
+
+#projects {
+  & .card-subtitle {
+    text-transform: uppercase;
+    color: transparentize($color-white, 0.75);
+  }
+}

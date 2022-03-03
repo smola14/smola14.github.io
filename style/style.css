@@ -99,6 +99,11 @@ h2 span {
   padding: 1.25em 0.625em;
 }
 
+#projects .card-subtitle {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.25);
+}
+
 .navbar {
   text-transform: uppercase;
 }
@@ -267,4 +272,26 @@ form {
 
 .lead {
   text-align: justify;
+}
+
+#projects .row .card {
+  background: #191816;
+  padding: 0.625em;
+  width: 18.75em;
+  height: 16.25em;
+}
+
+#projects .card-link {
+  position: absolute;
+  margin-bottom: 1.25em;
+  bottom: 0;
+  color: #64ffda;
+}
+
+#projects .card-link-github {
+  position: absolute;
+  margin: 0 1.25em 1.25em 0;
+  bottom: 0;
+  right: 0;
+  color: #64ffda;
 }
