@@ -356,3 +356,12 @@ footer .copyright {
   width: 60%;
   margin: 0 auto;
 }
+
+@media (max-width: 991.98px) {
+  #projects .container {
+    width: 100%;
+  }
+  .row .card {
+    height: 13.75em !important;
+  }
+}

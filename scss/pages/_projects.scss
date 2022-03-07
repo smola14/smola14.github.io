@@ -34,3 +34,13 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 991.98px) {
+  #projects .container {
+    width: 100%;
+  }
+
+  .row .card {
+    height: em(220) !important;
+  }
+}
