@@ -25,6 +25,18 @@ footer {
     text-align: center;
     font-size: em(18);
   }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  form {
+    width: 70%;
+  }
 }
 
 @media (max-width: 991.98px) {
