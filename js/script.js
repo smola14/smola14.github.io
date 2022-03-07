@@ -33,14 +33,14 @@ typewriter
   .deleteAll()
   .start()
 
-const navbar = document.querySelector('.navbar')
+const header = document.querySelector('nav')
 window.onscroll = () => {
   if (window.scrollY > 80) {
-    navbar.classList.add('nav-active')
-    navbar.classList.remove('nav-noactive')
+    header.classList.add('nav-active')
+    header.classList.remove('nav-noactive')
   } else {
-    navbar.classList.remove('nav-active')
-    navbar.classList.add('nav-noactive')
+    header.classList.remove('nav-active')
+    header.classList.add('nav-noactive')
   }
 }
 
@@ -65,4 +65,9 @@ menu.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
   nav.classList.remove('open-nav')
+})
+
+$('header a').click(function () {
+  $('header a').css('color', 'white')
+  $(this).css('color', '#64ffda')
 })
