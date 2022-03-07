@@ -1,0 +1,37 @@
+//
+//PROJECTS
+//----------------------------------------------------------------
+
+#projects {
+  margin-top: em(200) 0;
+
+  & .row .card {
+    background: darken($color-secondary, 1.5);
+    height: em(260);
+  }
+  & .card-link {
+    color: $color-primary;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 em(8) em(15);
+  }
+  & .card-link-github {
+    color: $color-primary;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 em(10) em(5) 0;
+  }
+
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #projects .container {
+    width: 100%;
+  }
+}
