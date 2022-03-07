@@ -222,36 +222,30 @@ footer {
   background-color: #2a2926;
 }
 
-footer p {
-  font-size: 1.125em;
-}
-
 footer h2 {
   line-height: 1.875em;
 }
 
 footer .copyright {
-  margin-top: 2.5em;
+  margin-top: 1.25em;
   text-align: center;
   font-size: 1.125em;
 }
 
-footer .left {
-  float: left;
+footer a {
+  color: #fff !important;
 }
 
-footer .right {
-  float: right;
+footer a:hover, footer a:active {
+  color: #64ffda !important;
 }
 
 footer form {
-  width: 70%;
+  width: 50%;
 }
 
-@media (max-width: 991.98px) {
-  footer .row {
-    width: 75%;
-  }
+footer textarea {
+  border-radius: 0.25rem;
 }
 
 .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
