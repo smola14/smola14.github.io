@@ -340,11 +340,16 @@ footer .copyright {
 }
 
 #projects .card-link-github {
-  color: #64ffda;
+  color: #fff;
   position: absolute;
   bottom: 0;
   right: 0;
   margin: 0 0.625em 0.3125em 0;
+  font-size: 1.25em;
+}
+
+#projects .card-link-github:hover {
+  color: #64ffda;
 }
 
 #projects .container {

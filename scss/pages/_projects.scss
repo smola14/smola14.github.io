@@ -17,11 +17,16 @@
     margin: 0 0 em(8) em(15);
   }
   & .card-link-github {
-    color: $color-primary;
+    color: $color-white;
     position: absolute;
     bottom: 0;
     right: 0;
     margin: 0 em(10) em(5) 0;
+    font-size: em(20);
+
+    &:hover {
+      color: $color-primary;
+    }
   }
 
   .container {
