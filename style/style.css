@@ -68,10 +68,6 @@ h2 span {
   color: #64ffda;
 }
 
-#title {
-  margin-top: 7.5em;
-}
-
 #title #first {
   color: #64ffda;
   font-family: 'PT Serif', serif;
@@ -276,6 +272,17 @@ form {
 
 #projects {
   margin-top: 12.5em 0;
+}
+
+#title {
+  margin-top: 7.5em;
+}
+
+@media (max-width: 991.98px) {
+  #title {
+    margin-top: 3.125em;
+    text-align: center;
+  }
 }
 
 .fa-brands {
