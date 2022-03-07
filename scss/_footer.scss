@@ -9,21 +9,10 @@
   width: 100%;
 }
 
-#footer {
+footer {
   background-color: lighten($color-secondary, 5%);
 
-  & h4 {
-    color: $color-primary;
-    text-transform: uppercase;
-    font-family: 'PT Serif', serif;
+  p {
+    font-size: em(18);
   }
-}
-
-form {
-  width: 60%;
-}
-
-.copyright {
-  text-align: center;
-  padding-bottom: em(7);
 }

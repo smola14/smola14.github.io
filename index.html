@@ -257,62 +257,31 @@
       ></path>
     </svg>
     <!-- FOOTER SECTION -->
-    <section id="footer">
-      <div class="container">
-        <footer>
-          <div class="row text-center">
-            <h4 data-aos="zoom-in" class="mb-5 mt-3">
-              <span>Máš nejakú otázku alebo chceš somnou spolupracovať?</span>
-            </h4>
-            <div class="col-12 col-lg-6 leftSide">
-              <p
-                class="lead email"
-                onclick="copyEmail()"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Po kliknutí sa ti mail skopíruje do schránky"
-              >
-                <i class="fa-solid fa-envelope"></i>
-                dominik.smolinsky@icloud.com
-              </p>
-              <p class="lead">
-                <i class="fa-solid fa-phone"></i> +421 915 513 727
-              </p>
-              <p class="lead">
-                <i class="fa-solid fa-location-dot"></i> 🇸🇰 Kúty / 🇨🇿 Brno
-              </p>
-            </div>
-            <div class="col-12 col-lg-6 rightSide">
-              <form>
-                <div class="mb-2">
-                  <label for="email" class="form-label">Email:</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Tvoj email"
-                    name="email"
-                  />
-                </div>
-                <div class="mb-2">
-                  <label for="text">Text:</label>
-                  <textarea
-                    class="form-control"
-                    rows="5"
-                    id="text"
-                    name="text"
-                    placeholder="Tvoj text"
-                  ></textarea>
-                </div>
-                <div class="form-check mb-2"></div>
-                <button type="submit" class="btn btn-secondary">Odoslať</button>
-              </form>
-            </div>
+    <footer>
+      <h2 class="text-center mb-5"><span>Máš na mňa nejakú otázku alebo chceš somnou spolupracovať?</span></h2>
+      <div class="d-flex justify-content-around">
+        <div class="row align-items-center">
+          <div class="col">
+            <p onclick="copyEmail()" class="d-flex"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;dominik.smolinsky@icloud.com</p>
+            <p class="d-flex"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;+421 915 513 727</p>
+            <p class="d-flex"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;Kúty / Brno</p>
           </div>
-        </footer>
-        <div class="copyright"><span>Dominik Smolinský &copy; 2022</span></div>
+          <div class="col">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Odoslať</button>
+            </form>
+          </div>
+        </div>
       </div>
-    </section>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"

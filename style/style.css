@@ -210,23 +210,12 @@ nav ul a:hover, nav ul a:active {
   fill: #2a2926;
 }
 
-#footer {
+footer {
   background-color: #2a2926;
 }
 
-#footer h4 {
-  color: #64ffda;
-  text-transform: uppercase;
-  font-family: 'PT Serif', serif;
-}
-
-form {
-  width: 60%;
-}
-
-.copyright {
-  text-align: center;
-  padding-bottom: 0.4375em;
+footer p {
+  font-size: 1.125em;
 }
 
 .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
