@@ -65,21 +65,23 @@ h2 span {
 }
 
 #title {
-  margin-top: 4.375em;
+  margin-top: 7.5em;
 }
 
-#title h2 {
-  text-transform: uppercase;
-}
-
-#title h3 {
-  opacity: 0.1;
-  font-size: 9.375em;
-}
-
-#title h5 {
+#title #first {
   color: #64ffda;
   font-family: 'PT Serif', serif;
+  font-size: 0.5em;
+  margin-left: 0.34375em;
+}
+
+#title #second {
+  font-size: 2.5em;
+}
+
+#title #third {
+  font-size: 2.1875em;
+  opacity: 0.2;
 }
 
 #skills i {
@@ -294,4 +296,8 @@ form {
   bottom: 0;
   right: 0;
   color: #64ffda;
+}
+
+#hero {
+  height: 60vh;
 }

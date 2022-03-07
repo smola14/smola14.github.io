@@ -26,20 +26,22 @@ h2 {
 
 //#main
 #title {
-  margin-top: em(70);
+  margin-top: em(120);
 
-  & h2 {
-    text-transform: uppercase;
-  }
-
-  & h3 {
-    opacity: 0.1;
-    font-size: em(150);
-  }
-
-  & h5 {
+  #first {
     color: $color-primary;
     font-family: 'PT Serif', serif;
+    font-size: em(8);
+    margin-left: em(5.5);
+  }
+
+  #second {
+    font-size: em(40);
+  }
+
+  #third {
+    font-size: em(35);
+    opacity: 0.2;
   }
 }
 
