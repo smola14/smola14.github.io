@@ -56,14 +56,14 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 })
 
 const menu = document.querySelector('.menu')
-const close = document.querySelector('.close')
+const closeM = document.querySelector('.close')
 const nav = document.querySelector('nav')
 
 menu.addEventListener('click', () => {
   nav.classList.add('open-nav')
 })
 
-close.addEventListener('click', () => {
+closeM.addEventListener('click', () => {
   nav.classList.remove('open-nav')
 })
 
