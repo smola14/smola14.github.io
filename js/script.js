@@ -66,3 +66,14 @@ $('header a').click(function () {
   $('header a').css('color', 'white')
   $(this).css('color', '#64ffda')
 })
+
+const navbar = document.querySelector('nav')
+window.onscroll = () => {
+  if (window.scrollY > 30 && window.innerWidth > 920) {
+    navbar.classList.add('nav-active')
+    navbar.classList.remove('nav-noactive')
+  } else {
+    navbar.classList.remove('nav-active')
+    navbar.classList.add('nav-noactive')
+  }
+}

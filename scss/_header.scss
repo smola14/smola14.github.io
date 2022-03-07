@@ -88,3 +88,15 @@ nav {
 #home {
   color: $color-primary;
 }
+
+.nav-active {
+  background-color: $color-secondary;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0px 3px 15px 3px #000000;
+  box-shadow: 0px 3px 15px 3px #000000;
+}
+
+.nav-noactive {
+  background-color: none;
+  transition: all 0.5s;
+}
