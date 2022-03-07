@@ -142,10 +142,9 @@ nav ul {
 
 nav ul a {
   color: black;
-  padding: 0.75em 2em;
+  padding: 0.75em 1.2em !important;
   display: block;
   color: #fff;
-  padding: 0.625em 0.9375em;
   text-shadow: 1px 1px rgba(100, 255, 218, 0.5);
 }
 
