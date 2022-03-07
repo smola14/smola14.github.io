@@ -2,6 +2,13 @@
 //FOOTER
 //----------------------------------------------------------------
 
+.prechod {
+  path {
+    fill: lighten($color-secondary, 5%);
+  }
+  width: 100%;
+}
+
 #footer {
   background-color: lighten($color-secondary, 5%);
 
@@ -9,9 +16,6 @@
     color: $color-primary;
     text-transform: uppercase;
     font-family: 'PT Serif', serif;
-  }
-  path {
-    fill: lighten($color-secondary, 5%);
   }
 }
 

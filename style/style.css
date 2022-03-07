@@ -180,6 +180,14 @@ nav ul a {
   transform: translateX(0%);
 }
 
+.prechod {
+  width: 100%;
+}
+
+.prechod path {
+  fill: #2a2926;
+}
+
 #footer {
   background-color: #2a2926;
 }
@@ -188,10 +196,6 @@ nav ul a {
   color: #64ffda;
   text-transform: uppercase;
   font-family: 'PT Serif', serif;
-}
-
-#footer path {
-  fill: #2a2926;
 }
 
 form {
