@@ -49,13 +49,14 @@ nav {
 
   nav {
     transform: translateX(0);
-    position: unset;
-    display: block;
+    position: fixed;
+    background: none;
     width: auto;
     height: auto;
-    background: none;
-
-    svg.close {
+    left: 50%;
+    transform: translate(-50%, 20%);
+    font-size: em(18);
+    .close {
       display: none;
     }
 
@@ -64,8 +65,13 @@ nav {
       margin: 0;
 
       a {
-        color: white;
-        padding: 0.5em 1.5em;
+        color: $color-white;
+        padding: em(10) em(15);
+        text-shadow: 1px 1px transparentize($color-primary, 0.5);
+
+        &:hover {
+          color: $color-primary;
+        }
       }
     }
   }

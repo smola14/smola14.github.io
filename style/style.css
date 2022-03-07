@@ -156,13 +156,15 @@ nav ul a {
   }
   nav {
     transform: translateX(0);
-    position: unset;
-    display: block;
+    position: fixed;
+    background: none;
     width: auto;
     height: auto;
-    background: none;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    font-size: 1.125em;
   }
-  nav svg.close {
+  nav .close {
     display: none;
   }
   nav ul {
@@ -170,8 +172,12 @@ nav ul a {
     margin: 0;
   }
   nav ul a {
-    color: white;
-    padding: 0.5em 1.5em;
+    color: #fff;
+    padding: 0.625em 0.9375em;
+    text-shadow: 1px 1px rgba(100, 255, 218, 0.5);
+  }
+  nav ul a:hover {
+    color: #64ffda;
   }
 }
 
