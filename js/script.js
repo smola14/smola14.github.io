@@ -63,6 +63,12 @@ menu.addEventListener('click', () => {
   nav.classList.add('open-nav')
 })
 
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 920) {
+    nav.classList.remove('open-nav')
+  }
+})
+
 closeM.addEventListener('click', () => {
   nav.classList.remove('open-nav')
 })
