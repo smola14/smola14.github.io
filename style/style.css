@@ -230,6 +230,12 @@ footer h2 {
   line-height: 1.875em;
 }
 
+footer .copyright {
+  margin-top: 2.5em;
+  text-align: center;
+  font-size: 1.125em;
+}
+
 @media (max-width: 991.98px) {
   footer .row {
     width: 75%;
