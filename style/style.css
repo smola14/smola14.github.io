@@ -247,7 +247,10 @@ form {
   max-width: 100%;
 }
 
-#about-me,
+#about-me {
+  margin: 6.25em 0 12.5em;
+}
+
 #skills,
 #projects {
   margin: 12.5em 0;
