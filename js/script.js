@@ -54,3 +54,15 @@ var tooltipTriggerList = [].slice.call(
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+
+const menu = document.querySelector('.menu')
+const close = document.querySelector('.close')
+const nav = document.querySelector('nav')
+
+menu.addEventListener('click', () => {
+  nav.classList.add('open-nav')
+})
+
+close.addEventListener('click', () => {
+  nav.classList.remove('open-nav')
+})
