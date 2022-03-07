@@ -301,3 +301,30 @@ form {
 #hero {
   height: 60vh;
 }
+
+#hero .down-circle {
+  font-size: 0.75em;
+  border: 2px solid white;
+  padding: 0 3px 20px;
+  border-radius: 25px;
+}
+
+#hero div:nth-child(2) {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hero i {
+  animation: moveCircle 1s alternate-reverse infinite;
+}
+
+@keyframes moveCircle {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
