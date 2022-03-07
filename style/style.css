@@ -360,3 +360,10 @@ form {
     transform: translateY(0px);
   }
 }
+
+@media (max-width: 991.98px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
