@@ -1,13 +1,3 @@
-.mygrid {
-  display: grid;
-  grid-template-columns: repeat(3, 22%);
-  justify-content: center;
-
-  & img {
-    max-width: 100%;
-  }
-}
-
 #about-me {
   margin: em(100) 0 em(200);
 }
@@ -45,22 +35,26 @@
 #projects {
   & .row .card {
     background: darken($color-secondary, 1.5);
-    padding: em(10);
-    width: em(300);
     height: em(260);
   }
   & .card-link {
-    position: absolute;
-    margin-bottom: em(20);
-    bottom: 0;
     color: $color-primary;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 em(8) em(15);
   }
   & .card-link-github {
+    color: $color-primary;
     position: absolute;
-    margin: 0 em(20) em(20) 0;
     bottom: 0;
     right: 0;
-    color: $color-primary;
+    margin: 0 em(10) em(5) 0;
+  }
+
+  .container {
+    width: 75%;
+    margin: 0 auto;
   }
 }
 

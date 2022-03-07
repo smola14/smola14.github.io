@@ -267,16 +267,6 @@ form {
   transition: all 0.5s;
 }
 
-.mygrid {
-  display: grid;
-  grid-template-columns: repeat(3, 22%);
-  justify-content: center;
-}
-
-.mygrid img {
-  max-width: 100%;
-}
-
 #about-me {
   margin: 6.25em 0 12.5em;
 }
@@ -313,24 +303,28 @@ form {
 
 #projects .row .card {
   background: #191816;
-  padding: 0.625em;
-  width: 18.75em;
   height: 16.25em;
 }
 
 #projects .card-link {
-  position: absolute;
-  margin-bottom: 1.25em;
-  bottom: 0;
   color: #64ffda;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 0.5em 0.9375em;
 }
 
 #projects .card-link-github {
+  color: #64ffda;
   position: absolute;
-  margin: 0 1.25em 1.25em 0;
   bottom: 0;
   right: 0;
-  color: #64ffda;
+  margin: 0 0.625em 0.3125em 0;
+}
+
+#projects .container {
+  width: 75%;
+  margin: 0 auto;
 }
 
 #hero .down-circle {
