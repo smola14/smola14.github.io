@@ -43,6 +43,10 @@ img {
   margin-bottom: 88px !important;
 }
 
+.wrapper {
+  height: 100vh;
+}
+
 h2 {
   font-family: 'PT Serif', serif;
   text-transform: uppercase;
@@ -291,10 +295,6 @@ form {
   bottom: 0;
   right: 0;
   color: #64ffda;
-}
-
-#hero {
-  height: 60vh;
 }
 
 #hero .down-circle {
