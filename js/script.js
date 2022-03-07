@@ -33,17 +33,6 @@ typewriter
   .deleteAll()
   .start()
 
-const header = document.querySelector('nav')
-window.onscroll = () => {
-  if (window.scrollY > 80) {
-    header.classList.add('nav-active')
-    header.classList.remove('nav-noactive')
-  } else {
-    header.classList.remove('nav-active')
-    header.classList.add('nav-noactive')
-  }
-}
-
 function copyEmail() {
   navigator.clipboard.writeText('dominik.smolinsky@icloud.com')
 }
