@@ -125,6 +125,7 @@ header .menu {
   top: 0;
   width: 3.125em;
   cursor: pointer;
+  background-color: pink;
 }
 
 nav {
