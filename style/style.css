@@ -126,6 +126,7 @@ header .menu {
   width: 3.125em;
   cursor: pointer;
   background-color: pink;
+  display: block;
 }
 
 nav {
@@ -165,7 +166,7 @@ nav ul a:hover, nav ul a:active {
 
 @media only screen and (min-width: 920px) {
   .menu {
-    display: none;
+    display: none !important;
   }
   nav {
     transform: translateX(0);

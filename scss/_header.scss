@@ -13,6 +13,7 @@ header {
     width: em(50);
     cursor: pointer;
     background-color: pink;
+    display: block;
   }
 }
 
@@ -54,7 +55,7 @@ nav {
 
 @media only screen and (min-width: 920px) {
   .menu {
-    display: none;
+    display: none !important;
   }
 
   nav {
