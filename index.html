@@ -237,15 +237,18 @@
       </h2>
       <div class="d-flex justify-content-center">
         <div class="row container align-items-center">
-          <div class="col-lg-6 col-12">
-            <p onclick="copyEmail()" class="d-flex">
+          <div class="col-lg-6 col-12 left">
+            <p
+              onclick="copyEmail()"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Po kliknutí sa ti skopíruje tento email do schránky."
+            >
               <i class="fa-solid fa-envelope"></i
               >&nbsp;&nbsp;dominik.smolinsky@icloud.com
             </p>
-            <p class="d-flex">
-              <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;+421 915 513 727
-            </p>
-            <p class="d-flex">
+            <p><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;+421 915 513 727</p>
+            <p>
               <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;Kúty /
               Brno
             </p>
@@ -253,34 +256,33 @@
           <div class="col-lg-6 col-12">
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  >E-mail</label
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email</label
                 >
                 <input
                   type="email"
                   class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
+                  id="exampleFormControlInput1"
+                  placeholder="meno@example.com"
                 />
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  >E-mail</label
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Text</label
                 >
                 <textarea
-                  id="exampleInputEmail1"
-                  name="exampleInputEmail1"
-                  rows="5"
-                  cols="40"
-                >
-                </textarea>
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="4"
+                ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Odoslať</button>
             </form>
           </div>
         </div>
       </div>
-      <small class="copyright">Dominik Smolinský &copy; 2022</small>
+      <small>
+        <div class="copyright">Dominik Smolinský &copy; 2022</div>
+      </small>
     </footer>
 
     <script
