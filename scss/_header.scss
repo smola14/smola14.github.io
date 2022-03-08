@@ -48,7 +48,10 @@ nav {
 }
 
 .close {
+  margin: em(10) em(15);
   float: left;
+  cursor: pointer;
+  font-size: em(30);
 }
 
 @media only screen and (min-width: 920px) {
