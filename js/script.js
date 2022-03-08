@@ -65,6 +65,7 @@ closeM.addEventListener('click', () => {
 $('header a').click(function () {
   $('header a').css('color', 'white')
   $(this).css('color', '#64ffda')
+  nav.classList.remove('open-nav')
 })
 
 const navbar = document.querySelector('nav')
