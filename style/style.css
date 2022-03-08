@@ -55,6 +55,12 @@ form {
   text-align: justify;
 }
 
+@media (max-width: 991.98px) {
+  section {
+    scroll-margin-top: 1.875em;
+  }
+}
+
 h2 {
   font-family: 'PT Serif', serif;
   text-transform: uppercase;
