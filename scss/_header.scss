@@ -13,7 +13,7 @@ header {
     width: em(50);
     cursor: pointer;
     background-color: pink;
-    vertical-align: top;
+    vertical-align: top !important;
   }
 }
 
