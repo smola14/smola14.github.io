@@ -154,7 +154,8 @@ nav ul a {
   text-shadow: 1px 1px rgba(100, 255, 218, 0.5);
 }
 
-nav ul a:hover, nav ul a:active {
+nav ul a:hover,
+nav ul a:active {
   color: #64ffda;
 }
 
@@ -164,7 +165,7 @@ nav ul a:hover, nav ul a:active {
 
 @media only screen and (min-width: 920px) {
   .menu {
-    display: none !important;
+    display: none;
   }
   nav {
     transform: translateX(0);
@@ -245,7 +246,8 @@ footer a {
   color: #fff !important;
 }
 
-footer a:hover, footer a:active {
+footer a:hover,
+footer a:active {
   color: #64ffda !important;
 }
 
@@ -282,7 +284,9 @@ footer .social-media > * > * {
   }
 }
 
-.btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
   background-color: #1d1c1a !important;
   border: 0.125em solid #64ffda;
   color: #64ffda;
@@ -299,7 +303,9 @@ footer .social-media > * > * {
   transition: all 0.5s;
 }
 
-.btn-secondary:active, .btn-secondary:visited, .btn-secondary:focus {
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
   background-color: #2a2926 !important;
   border: 0.125em solid #64ffda;
   color: #64ffda;
