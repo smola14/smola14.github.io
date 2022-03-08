@@ -260,8 +260,11 @@ footer .container {
 }
 
 footer .social-media > * {
+  font-size: 1.25em;
+}
+
+footer .social-media > * > * {
   padding: 0 0.625em;
-  float: left;
 }
 
 @media (max-width: 991.98px) {
@@ -270,6 +273,12 @@ footer .social-media > * {
   }
   footer .container {
     width: 100%;
+  }
+  .right {
+    margin-top: 1.875em;
+  }
+  .social-media {
+    text-align: center;
   }
 }
 

@@ -49,8 +49,11 @@ footer {
   }
 
   .social-media > * {
-    padding: 0 em(10);
-    float: left;
+    font-size: em(20);
+
+    & > * {
+      padding: 0 em(10);
+    }
   }
 }
 
@@ -63,5 +66,13 @@ footer {
     .container {
       width: 100%;
     }
+  }
+
+  .right {
+    margin-top: em(30);
+  }
+
+  .social-media {
+    text-align: center;
   }
 }
