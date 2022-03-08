@@ -15,8 +15,8 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body {
@@ -256,6 +256,11 @@ footer form {
 
 footer .container {
   width: 60%;
+}
+
+footer .social-media > * {
+  padding: 0 0.625em;
+  float: left;
 }
 
 @media (max-width: 991.98px) {

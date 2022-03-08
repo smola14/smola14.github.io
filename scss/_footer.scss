@@ -47,6 +47,11 @@ footer {
   .container {
     width: 60%;
   }
+
+  .social-media > * {
+    padding: 0 em(10);
+    float: left;
+  }
 }
 
 @media (max-width: 991.98px) {
