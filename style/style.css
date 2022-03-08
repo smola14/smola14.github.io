@@ -123,10 +123,8 @@ header {
 header .menu {
   position: relative;
   top: 0;
-  width: 3.125em;
+  font-size: 1.875em;
   cursor: pointer;
-  background-color: pink;
-  padding: 0 !important;
 }
 
 nav {
