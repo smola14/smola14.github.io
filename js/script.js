@@ -29,11 +29,11 @@ closeM.addEventListener('click', () => {
   nav.classList.remove('open-nav')
 })
 
-$('header a').click(function () {
-  $('header a').css('color', 'white')
-  $(this).css('color', '#64ffda')
-  nav.classList.remove('open-nav')
-})
+// $('header a').click(function () {
+//   $('header a').css('color', 'white')
+//   $(this).css('color', '#64ffda')
+//   nav.classList.remove('open-nav')
+// })
 
 const navbar = document.querySelector('nav')
 window.onscroll = () => {
@@ -55,7 +55,7 @@ function navHighlighter() {
 
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight
-    const sectionTop = current.offsetTop - 50
+    const sectionTop = current.offsetTop - 150
     let sectionId = current.getAttribute('id')
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document

@@ -165,7 +165,7 @@ nav ul a:hover, nav ul a:active {
 }
 
 .active {
-  background-color: pink;
+  color: #64ffda;
 }
 
 .close {
@@ -206,10 +206,6 @@ nav ul a:hover, nav ul a:active {
 .open-nav {
   transform: translateX(0%);
   box-shadow: 8px 0 5px 2px #1d1c1a;
-}
-
-#home {
-  color: #64ffda;
 }
 
 .nav-active {

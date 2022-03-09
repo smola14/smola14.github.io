@@ -48,7 +48,7 @@ nav {
 }
 
 .active {
-  background-color: pink;
+  color: $color-primary;
 }
 
 .close {
@@ -92,10 +92,6 @@ nav {
 .open-nav {
   transform: translateX(0%);
   box-shadow: 8px 0 5px 2px $color-secondary;
-}
-
-#home {
-  color: $color-primary;
 }
 
 .nav-active {
