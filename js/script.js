@@ -46,10 +46,8 @@ window.onscroll = () => {
   }
 }
 
-// Get all sections that have an ID defined
 const sections = document.querySelectorAll('section')
 
-// Add an event listener listening for scroll
 window.addEventListener('scroll', navHighlighter)
 
 function navHighlighter() {
@@ -63,7 +61,6 @@ function navHighlighter() {
       document
         .querySelector('nav a[href*=' + sectionId + ']')
         .classList.add('active')
-      console.log(sectionId)
     } else {
       document
         .querySelector('nav a[href*=' + sectionId + ']')
