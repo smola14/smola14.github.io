@@ -30,7 +30,7 @@ a {
 }
 
 section {
-  scroll-margin-top: 6.25em;
+  scroll-margin-top: 1.25em;
 }
 
 img {
@@ -165,7 +165,7 @@ nav ul a:hover, nav ul a:active {
 }
 
 .active {
-  color: #64ffda;
+  color: #64ffda !important;
 }
 
 .close {
@@ -364,15 +364,15 @@ footer .social-media > * > * {
 }
 
 #about-me {
-  margin: 6.25em 0 12.5em;
+  padding: 6.25em 0;
 }
 
 #skills {
-  margin: 12.5em 0;
+  padding: 6.25em 0;
 }
 
 #projects {
-  margin-top: 12.5em 0;
+  padding: 6.25em 0;
 }
 
 #projects .row .card {

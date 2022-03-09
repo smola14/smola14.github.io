@@ -3,8 +3,7 @@
 //----------------------------------------------------------------
 
 #projects {
-  margin-top: em(200) 0;
-
+  padding: em(100) 0;
   & .row .card {
     background: darken($color-secondary, 1.5);
     height: em(260);

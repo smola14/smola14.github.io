@@ -55,7 +55,7 @@ function navHighlighter() {
 
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight
-    const sectionTop = current.offsetTop - 150
+    const sectionTop = current.offsetTop - 250
     let sectionId = current.getAttribute('id')
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
@@ -68,3 +68,24 @@ function navHighlighter() {
     }
   })
 }
+
+// const sections = document.querySelectorAll('section')
+// const navLi = document.querySelectorAll('nav li')
+// window.addEventListener('scroll', () => {
+//   let current = ''
+//   sections.forEach((section) => {
+//     const sectionTop = section.offsetTop
+//     const sectionHeight = section.clientHeight
+//     if (window.pageYOffset >= sectionTop - sectionHeight / 3) {
+//       current = section.getAttribute('id')
+//     }
+//   })
+
+//   navLi.forEach((li) => {
+//     li.classList.remove('active')
+//     if (li.classList.contains(current)) {
+//       li.classList.add('active')
+//       console.log(li)
+//     }
+//   })
+// })
