@@ -428,9 +428,9 @@ footer .social-media > * > * {
   margin: 0 auto;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 900px) {
   .row .card {
-    height: 15em !important;
+    height: 16.25em !important;
   }
 }
 
