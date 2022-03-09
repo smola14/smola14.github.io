@@ -17,7 +17,7 @@ footer {
   }
 
   .copyright {
-    margin-top: em(20);
+    padding: em(15) 0 em(5);
     text-align: center;
     font-size: em(18);
   }
@@ -74,5 +74,13 @@ footer {
 
   .social-media {
     text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    h2 span {
+      border-bottom: 3px solid $color-primary;
+    }
   }
 }
