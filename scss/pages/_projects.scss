@@ -34,7 +34,10 @@
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 575.98px) {
+  .row .card {
+    height: em(240) !important;
+  }
 }
 
 @media (max-width: 1200px) {

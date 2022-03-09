@@ -428,6 +428,12 @@ footer .social-media > * > * {
   margin: 0 auto;
 }
 
+@media (max-width: 575.98px) {
+  .row .card {
+    height: 15em !important;
+  }
+}
+
 @media (max-width: 1200px) {
   #projects .container {
     width: 100%;
