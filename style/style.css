@@ -57,7 +57,7 @@ form {
 
 @media (max-width: 991.98px) {
   section {
-    scroll-margin-top: 1.875em;
+    scroll-margin-top: -1.875em;
   }
 }
 
