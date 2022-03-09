@@ -1,38 +1,5 @@
 'use strict'
 
-var app = document.getElementById('app')
-
-var typewriter = new Typewriter(app, {
-  loop: true,
-})
-
-typewriter
-  .typeString('HTML')
-  .pauseFor(10)
-  .deleteAll()
-  .typeString('CSS')
-  .pauseFor(10)
-  .deleteAll()
-  .typeString('SASS')
-  .pauseFor(10)
-  .deleteAll()
-  .typeString('BOOTSTRAP')
-  .pauseFor(10)
-  .deleteAll()
-  .typeString('JAVASCRIPT')
-  .pauseFor(10)
-  .deleteAll()
-  .typeString('VUE')
-  .pauseFor(10)
-  .deleteAll()
-  .typeString('GIT')
-  .pauseFor(10)
-  .deleteAll()
-  .typeString('GITHUB')
-  .pauseFor(10)
-  .deleteAll()
-  .start()
-
 function copyEmail() {
   navigator.clipboard.writeText('dominik.smolinsky@icloud.com')
 }
@@ -77,4 +44,30 @@ window.onscroll = () => {
     navbar.classList.remove('nav-active')
     navbar.classList.add('nav-noactive')
   }
+}
+
+// Get all sections that have an ID defined
+const sections = document.querySelectorAll('section')
+
+// Add an event listener listening for scroll
+window.addEventListener('scroll', navHighlighter)
+
+function navHighlighter() {
+  let scrollY = window.pageYOffset
+
+  sections.forEach((current) => {
+    const sectionHeight = current.offsetHeight
+    const sectionTop = current.offsetTop - 50
+    let sectionId = current.getAttribute('id')
+    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+      document
+        .querySelector('nav a[href*=' + sectionId + ']')
+        .classList.add('active')
+      console.log(sectionId)
+    } else {
+      document
+        .querySelector('nav a[href*=' + sectionId + ']')
+        .classList.remove('active')
+    }
+  })
 }

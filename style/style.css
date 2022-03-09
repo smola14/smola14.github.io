@@ -164,6 +164,10 @@ nav ul a:hover, nav ul a:active {
   color: #64ffda;
 }
 
+.active {
+  background-color: pink;
+}
+
 .close {
   margin: 0.625em 0.9375em;
   float: left;
