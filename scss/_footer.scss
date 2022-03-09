@@ -11,6 +11,7 @@
 
 footer {
   background-color: lighten($color-secondary, 5%);
+  font-size: em(17);
 
   h2 {
     line-height: em(30);
@@ -19,15 +20,13 @@ footer {
   .copyright {
     padding: em(15) 0 em(5);
     text-align: center;
-    font-size: em(18);
+    font-size: em(18, 17);
   }
 
   p {
     &:nth-child(1):hover {
       cursor: pointer;
     }
-
-    font-size: em(20);
   }
 
   a {
@@ -41,7 +40,6 @@ footer {
   form {
     width: 70%;
     margin: 0 auto;
-    font-size: em(20);
   }
 
   .container {
@@ -49,7 +47,7 @@ footer {
   }
 
   .social-media > * {
-    font-size: em(20);
+    font-size: em(20, 17);
 
     & > * {
       padding: 0 em(10);

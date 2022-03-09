@@ -241,6 +241,7 @@ nav ul a:hover, nav ul a:active {
 
 footer {
   background-color: #2a2926;
+  font-size: 1.0625em;
 }
 
 footer h2 {
@@ -250,11 +251,7 @@ footer h2 {
 footer .copyright {
   padding: 0.9375em 0 0.3125em;
   text-align: center;
-  font-size: 1.125em;
-}
-
-footer p {
-  font-size: 1.25em;
+  font-size: 1.05882em;
 }
 
 footer p:nth-child(1):hover {
@@ -272,7 +269,6 @@ footer a:hover, footer a:active {
 footer form {
   width: 70%;
   margin: 0 auto;
-  font-size: 1.25em;
 }
 
 footer .container {
@@ -280,7 +276,7 @@ footer .container {
 }
 
 footer .social-media > * {
-  font-size: 1.25em;
+  font-size: 1.17647em;
 }
 
 footer .social-media > * > * {
