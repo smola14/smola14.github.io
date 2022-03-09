@@ -426,7 +426,7 @@ footer .social-media > * > * {
   margin: 0 auto;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200px) {
   #projects .container {
     width: 100%;
   }
