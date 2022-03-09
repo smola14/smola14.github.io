@@ -5,3 +5,15 @@
 #about-me {
   padding: em(100) 0;
 }
+
+@media (max-width: 991.98px) {
+  #about-me {
+    p {
+      margin-top: em(25);
+    }
+
+    h4 {
+      margin-bottom: em(-10);
+    }
+  }
+}

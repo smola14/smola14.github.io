@@ -378,6 +378,15 @@ footer .social-media > * > * {
   padding: 6.25em 0;
 }
 
+@media (max-width: 991.98px) {
+  #about-me p {
+    margin-top: 1.5625em;
+  }
+  #about-me h4 {
+    margin-bottom: -0.625em;
+  }
+}
+
 #skills {
   padding: 6.25em 0;
 }

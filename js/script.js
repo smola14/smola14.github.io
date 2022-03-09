@@ -69,6 +69,10 @@ function navHighlighter() {
   })
 }
 
+window.addEventListener('resize', () => {
+  alert(window.innerWidth)
+})
+
 // const sections = document.querySelectorAll('section')
 // const navLi = document.querySelectorAll('nav li')
 // window.addEventListener('scroll', () => {
