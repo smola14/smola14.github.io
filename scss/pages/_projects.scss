@@ -34,12 +34,6 @@
   }
 }
 
-@media (max-width: 900px) {
-  .row .card {
-    height: em(260) !important;
-  }
-}
-
 @media (max-width: 1200px) {
   #projects .container {
     width: 100%;
@@ -47,5 +41,11 @@
 
   .row .card {
     height: em(220) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .row .card {
+    height: em(260) !important;
   }
 }
