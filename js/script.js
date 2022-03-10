@@ -74,3 +74,16 @@ document
   .forEach((link) =>
     link.addEventListener('click', () => nav.classList.remove('open-nav'))
   )
+
+let topArrow = document.querySelector('.fa-arrow-up')
+window.onscroll = () => {
+  if (window.scrollY > 500 && window.innerWidth < 919.9) {
+    topArrow.classList.add('arrow-active')
+  } else {
+    topArrow.classList.remove('arrow-active')
+  }
+}
+
+topArrow.addEventListener('click', () => {
+  $('html, body').animate({ scrollTop: 0 }, 'fast')
+})

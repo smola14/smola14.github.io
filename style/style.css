@@ -55,6 +55,24 @@ form {
   text-align: justify;
 }
 
+.fa-arrow-up {
+  opacity: 0;
+}
+
+.arrow-active {
+  opacity: 1;
+  position: fixed;
+  bottom: 0;
+  font-size: 1.375em;
+  margin-bottom: 33%;
+  background: rgba(211, 211, 211, 0.7);
+  padding: 0.1875em;
+  border-radius: 5px;
+  z-index: 5;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
 @media (max-width: 991.98px) {
   section {
     scroll-margin-top: -1.875em;
