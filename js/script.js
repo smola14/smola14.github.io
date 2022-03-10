@@ -68,3 +68,9 @@ function navHighlighter() {
     }
   })
 }
+
+document
+  .querySelectorAll('nav li')
+  .forEach((link) =>
+    link.addEventListener('click', () => nav.classList.remove('open-nav'))
+  )
