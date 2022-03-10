@@ -299,7 +299,10 @@ footer .social-media > * > * {
 }
 
 @media (max-width: 767.98px) {
-  footer h2 span {
+  footer h2 {
+    padding: 0 1.25em !important;
+  }
+  footer span {
     border-bottom: 3px solid #64ffda;
   }
 }
