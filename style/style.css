@@ -309,13 +309,11 @@ footer .social-media > * > * {
 
 .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
   background-color: #1d1c1a !important;
-  border: 0.125em solid #64ffda;
   color: #64ffda;
 }
 
 .btn-primary:hover {
   background-color: #64ffda !important;
-  border: 0.125em solid #1d1c1a;
   color: #1d1c1a;
   transition: all 0.5s;
 }
@@ -326,13 +324,11 @@ footer .social-media > * > * {
 
 .btn-secondary:active, .btn-secondary:visited, .btn-secondary:focus {
   background-color: #2a2926 !important;
-  border: 0.125em solid #64ffda;
   color: #64ffda;
 }
 
 .btn-secondary:hover {
   background-color: #64ffda !important;
-  border: 0.125em solid #2a2926;
   color: #2a2926;
   transition: all 0.5s;
 }
