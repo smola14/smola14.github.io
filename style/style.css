@@ -120,23 +120,6 @@ h2 span {
   opacity: 0.2;
 }
 
-#skills i {
-  font-size: 4.0625em;
-}
-
-#skills i:hover {
-  color: #64ffda;
-}
-
-#skills p {
-  margin-top: 0.3125em;
-  font-weight: bold;
-}
-
-#skills .row div {
-  padding: 1.25em 0.625em;
-}
-
 #projects .card-subtitle {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.25);
@@ -443,8 +426,12 @@ footer .social-media > * > * {
   }
 }
 
-#skills {
+#services {
   padding: 6.25em 0;
+}
+
+#services h5 {
+  text-shadow: 1px 1px rgba(100, 255, 218, 0.8);
 }
 
 #projects {

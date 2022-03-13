@@ -43,23 +43,7 @@ h2 {
   }
 }
 
-#skills {
-  & i {
-    font-size: em(65);
-
-    &:hover {
-      color: $color-primary;
-    }
-  }
-
-  & p {
-    margin-top: em(5);
-    font-weight: bold;
-  }
-
-  & .row div {
-    padding: em(20) em((10));
-  }
+#services {
 }
 
 #projects {

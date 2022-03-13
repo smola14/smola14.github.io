@@ -1,7 +1,10 @@
 //
-//SKILLS
+//SERVICES
 //----------------------------------------------------------------
 
-#skills {
+#services {
   padding: em(100) 0;
+  h5 {
+    text-shadow: 1px 1px transparentize($color-primary, 0.2);
+  }
 }
