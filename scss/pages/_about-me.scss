@@ -3,6 +3,8 @@
 //----------------------------------------------------------------
 
 #about-me {
+  width: 80%;
+  margin: 0 auto;
   padding: em(100) 0;
   .web-tech {
     font-weight: bold;
@@ -17,6 +19,10 @@
 
     h4 {
       margin-bottom: em(10);
+    }
+
+    .left {
+      order: 1 !important;
     }
   }
 }
