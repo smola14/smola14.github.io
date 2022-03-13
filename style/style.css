@@ -482,6 +482,22 @@ footer .social-media > * > * {
   margin: 0 auto;
 }
 
+.javascript {
+  border-radius: 0.3125em;
+  padding: 0.3125em 0.4375em;
+  background-color: rgba(239, 216, 29, 0.1);
+  color: #efd81d;
+  text-transform: none;
+}
+
+.bootstrap {
+  border-radius: 0.3125em;
+  padding: 0.3125em 0.4375em;
+  background-color: rgba(121, 82, 179, 0.1);
+  color: #7952b3;
+  text-transform: none;
+}
+
 @media (max-width: 1200px) {
   #projects .container {
     width: 100%;
