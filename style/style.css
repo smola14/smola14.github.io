@@ -365,11 +365,6 @@ footer .social-media > * > * {
   }
 }
 
-#title,
-lottie-player {
-  margin-top: 7.5em;
-}
-
 #hero lottie-player {
   width: 21.875em;
   height: 21.875em;
