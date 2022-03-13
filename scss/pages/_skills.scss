@@ -8,3 +8,15 @@
     text-shadow: 1px 1px transparentize($color-primary, 0.2);
   }
 }
+
+@media (max-width: 991.98px) {
+  #services {
+    .row div:first-child,
+    div:nth-child(2) {
+      margin-bottom: em(100);
+    }
+    img {
+      width: 70%;
+    }
+  }
+}

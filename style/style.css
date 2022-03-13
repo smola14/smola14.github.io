@@ -390,6 +390,16 @@ footer h5 {
   text-shadow: 1px 1px rgba(100, 255, 218, 0.8);
 }
 
+@media (max-width: 991.98px) {
+  #services .row div:first-child,
+  #services div:nth-child(2) {
+    margin-bottom: 6.25em;
+  }
+  #services img {
+    width: 70%;
+  }
+}
+
 #projects {
   padding: 6.25em 0;
 }
