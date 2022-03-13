@@ -24,7 +24,7 @@ nav {
   left: 0;
   top: 0;
   height: 100vh;
-  background: $color-secondary;
+  background: darken($color-secondary, 2.5);
   width: 42%;
   z-index: 2;
   text-transform: uppercase;
@@ -95,7 +95,7 @@ nav {
 
 .open-nav {
   transform: translateX(0%);
-  box-shadow: 8px 0 5px 2px $color-secondary;
+  box-shadow: 8px 0 5px 2px darken($color-secondary, 2.2);
 }
 
 .nav-active {

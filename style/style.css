@@ -167,7 +167,7 @@ nav {
   left: 0;
   top: 0;
   height: 100vh;
-  background: #1d1c1a;
+  background: #161614;
   width: 42%;
   z-index: 2;
   text-transform: uppercase;
@@ -234,7 +234,7 @@ nav ul a:hover, nav ul a:active {
 
 .open-nav {
   transform: translateX(0%);
-  box-shadow: 8px 0 5px 2px #1d1c1a;
+  box-shadow: 8px 0 5px 2px #171615;
 }
 
 .nav-active {
