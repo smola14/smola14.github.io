@@ -36,7 +36,7 @@ closeM.addEventListener('click', () => {
 // })
 
 const navbar = document.querySelector('nav')
-window.onscroll = () => {
+window.addEventListener('scroll', () => {
   if (window.scrollY > 30 && window.innerWidth > 920) {
     navbar.classList.add('nav-active')
     navbar.classList.remove('nav-noactive')
@@ -44,7 +44,7 @@ window.onscroll = () => {
     navbar.classList.remove('nav-active')
     navbar.classList.add('nav-noactive')
   }
-}
+})
 
 const sections = document.querySelectorAll('section')
 
