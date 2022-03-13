@@ -87,3 +87,11 @@ window.onscroll = () => {
 topArrow.addEventListener('click', () => {
   $('html, body').animate({ scrollTop: 0 }, 'fast')
 })
+
+const circleDown = document.querySelector('.wrapper-circle')
+
+circleDown.addEventListener('click', () => {
+  document.querySelector('#about-me').scrollIntoView({
+    behavior: 'smooth',
+  })
+})

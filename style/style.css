@@ -385,11 +385,20 @@ footer .social-media > * > * {
   border-radius: 25px;
 }
 
+#hero .down-circle:hover {
+  border-color: #64ffda;
+}
+
 #hero .wrapper-circle {
   position: absolute;
   top: 93%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#hero .wrapper-circle:hover {
+  color: #64ffda;
+  cursor: pointer;
 }
 
 #hero i {

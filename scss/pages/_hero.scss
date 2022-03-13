@@ -15,6 +15,9 @@
     border: 2px solid white;
     padding: 0 3px 25px;
     border-radius: 25px;
+    &:hover {
+      border-color: $color-primary;
+    }
   }
 
   .wrapper-circle {
@@ -22,6 +25,10 @@
     top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
+    &:hover {
+      color: $color-primary;
+      cursor: pointer;
+    }
   }
 
   i {
