@@ -108,11 +108,11 @@ h2 span {
 }
 
 #title #second {
-  font-size: 2.5em;
+  font-size: 1.25em;
 }
 
 #title #third {
-  font-size: 2.1875em;
+  font-size: 0.9375em;
   opacity: 0.2;
 }
 
@@ -366,7 +366,7 @@ footer .social-media > * > * {
 }
 
 #title {
-  margin-top: 11.25em;
+  margin-top: 7.5em;
 }
 
 #hero .down-circle {
