@@ -9,6 +9,12 @@
   .web-tech {
     font-weight: bold;
   }
+
+  a {
+    &:hover {
+      border-bottom: 1px solid $color-primary;
+    }
+  }
 }
 
 @media (max-width: 991.98px) {
