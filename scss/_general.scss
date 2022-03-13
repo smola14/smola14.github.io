@@ -48,11 +48,11 @@ form {
 }
 
 .fa-arrow-up {
-  opacity: 0;
+  display: none;
 }
 
 .arrow-active {
-  opacity: 1;
+  display: flex;
   position: fixed;
   bottom: 0;
   font-size: em(22);
