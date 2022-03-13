@@ -29,16 +29,16 @@ h2 {
   #first {
     color: $color-primary;
     font-family: 'PT Serif', serif;
-    font-size: em(8);
-    margin-left: em(5.5);
+    font-size: em(12);
+    margin-left: em(2);
   }
 
   #second {
-    font-size: em(20);
+    font-size: em(21);
   }
 
   #third {
-    font-size: em(15);
+    font-size: em(20);
     opacity: 0.2;
   }
 }

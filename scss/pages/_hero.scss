@@ -3,6 +3,9 @@
 //----------------------------------------------------------------
 
 #hero {
+  .row {
+    margin-top: em(150);
+  }
   lottie-player {
     width: em(350);
     height: em(350);
@@ -10,7 +13,7 @@
   .down-circle {
     font-size: em(12);
     border: 2px solid white;
-    padding: 0 3px 20px;
+    padding: 0 3px 25px;
     border-radius: 25px;
   }
 
@@ -22,13 +25,21 @@
   }
 
   i {
-    animation: moveCircle 1s alternate-reverse infinite;
+    animation: moveCircle 1.5s alternate-reverse infinite;
   }
 }
 
 @media (max-width: 991.98px) {
   #title {
-    margin-top: em(40);
+    margin-top: em(-150);
     text-align: center;
+  }
+
+  #hero {
+    lottie-player {
+      width: 40%;
+      margin: 0 auto;
+      margin-top: em(-70);
+    }
   }
 }

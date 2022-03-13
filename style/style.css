@@ -25,6 +25,10 @@ body {
   color: #fff;
 }
 
+.color-primary {
+  color: #64ffda;
+}
+
 a {
   text-decoration: none;
 }
@@ -103,16 +107,16 @@ h2 span {
 #title #first {
   color: #64ffda;
   font-family: 'PT Serif', serif;
-  font-size: 0.5em;
-  margin-left: 0.34375em;
+  font-size: 0.75em;
+  margin-left: 0.125em;
 }
 
 #title #second {
-  font-size: 1.25em;
+  font-size: 1.3125em;
 }
 
 #title #third {
-  font-size: 0.9375em;
+  font-size: 1.25em;
   opacity: 0.2;
 }
 
@@ -358,11 +362,15 @@ footer .social-media > * > * {
 
 @keyframes moveCircle {
   from {
-    transform: translateY(20px);
+    transform: translateY(25px);
   }
   to {
     transform: translateY(0px);
   }
+}
+
+#hero .row {
+  margin-top: 9.375em;
 }
 
 #hero lottie-player {
@@ -373,7 +381,7 @@ footer .social-media > * > * {
 #hero .down-circle {
   font-size: 0.75em;
   border: 2px solid white;
-  padding: 0 3px 20px;
+  padding: 0 3px 25px;
   border-radius: 25px;
 }
 
@@ -385,13 +393,18 @@ footer .social-media > * > * {
 }
 
 #hero i {
-  animation: moveCircle 1s alternate-reverse infinite;
+  animation: moveCircle 1.5s alternate-reverse infinite;
 }
 
 @media (max-width: 991.98px) {
   #title {
-    margin-top: 2.5em;
+    margin-top: -9.375em;
     text-align: center;
+  }
+  #hero lottie-player {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: -4.375em;
   }
 }
 
