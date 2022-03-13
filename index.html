@@ -55,14 +55,28 @@
 
       <!-- HERO TITLE -->
       <div id="hero">
-        <div id="title">
-          <h1>
-            <span id="first">Hello World!</span><br />
-            <span id="second">Máš v hlave nápad  a potrebuješ ho zdigitalizovať do webovej podoby? Tu si správne!</span><br />
-            <span id="third">Frontend Developer</span><br />
-          </h1>
+        <div class="row">
+          <div class="col-8" id="title">
+            <h1>
+              <span id="first">Hello World!</span><br />
+              <span id="second"
+                >Máš v hlave nápad a potrebuješ ho zdigitalizovať do webovej
+                podoby?Tu si správne!</span
+              ><br />
+              <span id="third">Frontend Developer</span><br />
+            </h1>
+          </div>
+          <div class="col-4">
+            <lottie-player
+              src="https://assets1.lottiefiles.com/packages/lf20_pkqzg9eh.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
         </div>
-        <div>
+        <div class="wrapper-circle">
           <span class="down-circle">
             <i class="fa-solid fa-circle"></i>
           </span>
@@ -95,7 +109,7 @@
               >. Máte záujem o moje služby? Neváhajte ma
               <a href="#footer"><em>kontakovať</em></a> !
             </p>
-            <br>
+            <br />
             <h4><span>Čo do budúcnosti?</span></h4>
             <p class="lead">
               V budúcnosti by som sa chcel stať full stack developerom, čo
@@ -195,7 +209,7 @@
         </div>
       </section>
     </div>
-    
+
     <!-- SVG PRECHOD -->
     <div class="prechod">
       <svg
@@ -234,13 +248,22 @@
               Brno
             </p>
             <p class="social-media">
-              <a href="https://www.facebook.com/dominik.smolinsky147/" target="_blank"><i class="fa-brands fa-facebook"></a></i
-              ><a href="https://www.instagram.com/sml_webdev/" target="_blank"><i class="fa-brands fa-instagram"></a></i
-              ><a href="https://github.com/smola14" target="_blank"><i class="fa-brands fa-github"></a></i>
+              <a
+                href="https://www.facebook.com/dominik.smolinsky147/"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i></a
+              ><a href="https://www.instagram.com/sml_webdev/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i></a
+              ><a href="https://github.com/smola14" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </p>
           </div>
           <div class="col-lg-6 col-12 right">
-            <form action="https://formsubmit.co/dominik.smolinsky@icloud.com" method="POST">
+            <form
+              action="https://formsubmit.co/dominik.smolinsky@icloud.com"
+              method="POST"
+            >
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label"
                   >Tvoj email</label
@@ -274,7 +297,8 @@
         <div class="copyright">Dominik Smolinský &copy; 2022</div>
       </small>
     </footer>
-<i class="fa-solid fa-arrow-up"></i>
+    <i class="fa-solid fa-arrow-up"></i>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -290,6 +314,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="/js/script.js"></script>
   </body>
 </html>

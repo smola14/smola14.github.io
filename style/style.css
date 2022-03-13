@@ -365,8 +365,14 @@ footer .social-media > * > * {
   }
 }
 
-#title {
+#title,
+lottie-player {
   margin-top: 7.5em;
+}
+
+#hero lottie-player {
+  width: 21.875em;
+  height: 21.875em;
 }
 
 #hero .down-circle {
@@ -376,7 +382,7 @@ footer .social-media > * > * {
   border-radius: 25px;
 }
 
-#hero div:nth-child(2) {
+#hero .wrapper-circle {
   position: absolute;
   top: 93%;
   left: 50%;

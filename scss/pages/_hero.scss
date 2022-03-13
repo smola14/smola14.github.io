@@ -2,11 +2,16 @@
 //	HERO
 //----------------------------------------------------------------
 
-#title {
+#title,
+lottie-player {
   margin-top: em(120);
 }
 
 #hero {
+  lottie-player {
+    width: em(350);
+    height: em(350);
+  }
   .down-circle {
     font-size: em(12);
     border: 2px solid white;
@@ -14,7 +19,7 @@
     border-radius: 25px;
   }
 
-  div:nth-child(2) {
+  .wrapper-circle {
     position: absolute;
     top: 93%;
     left: 50%;
