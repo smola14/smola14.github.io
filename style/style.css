@@ -247,11 +247,11 @@ nav ul a:hover, nav ul a:active {
 
 footer {
   background-color: #2a2926;
-  font-size: 1.0625em;
+  font-size: 1.25em;
 }
 
 footer h2 {
-  line-height: 1.875em;
+  line-height: 1.6875em;
 }
 
 footer .copyright {
@@ -260,57 +260,13 @@ footer .copyright {
   font-size: 1.05882em;
 }
 
-footer p:nth-child(1):hover {
-  cursor: pointer;
+footer p {
+  font-size: 0.9em;
 }
 
-footer a {
-  color: #fff !important;
-}
-
-footer a:hover, footer a:active {
-  color: #64ffda !important;
-}
-
-footer form {
-  width: 70%;
-  margin: 0 auto;
-}
-
-footer .container {
-  width: 60%;
-}
-
-footer .social-media > * {
-  font-size: 1.17647em;
-}
-
-footer .social-media > * > * {
-  padding: 0 0.625em;
-}
-
-@media (max-width: 991.98px) {
-  footer .left {
-    text-align: center;
-  }
-  footer .container {
-    width: 100%;
-  }
-  .right {
-    margin-top: 0.9375em;
-  }
-  .social-media {
-    text-align: center;
-  }
-}
-
-@media (max-width: 767.98px) {
-  footer h2 {
-    padding: 0 1.25em !important;
-  }
-  footer span {
-    border-bottom: 3px solid #64ffda;
-  }
+footer h5 {
+  text-shadow: 1px 1px rgba(100, 255, 218, 0.8);
+  text-transform: uppercase;
 }
 
 .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
