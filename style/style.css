@@ -399,12 +399,16 @@ footer .social-media > * > * {
   padding: 6.25em 0;
 }
 
+#about-me .web-tech {
+  font-weight: bold;
+}
+
 @media (max-width: 991.98px) {
-  #about-me p {
+  #about-me p:first-child {
     margin-top: 1.5625em;
   }
   #about-me h4 {
-    margin-bottom: -0.625em;
+    margin-bottom: 0.625em;
   }
 }
 

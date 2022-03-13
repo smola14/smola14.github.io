@@ -4,16 +4,19 @@
 
 #about-me {
   padding: em(100) 0;
+  .web-tech {
+    font-weight: bold;
+  }
 }
 
 @media (max-width: 991.98px) {
   #about-me {
-    p {
+    p:first-child {
       margin-top: em(25);
     }
 
     h4 {
-      margin-bottom: em(-10);
+      margin-bottom: em(10);
     }
   }
 }
