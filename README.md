@@ -1,2 +1,2 @@
-# smola14.github.io
-MY PORTFOLIO PAGE
+# https://smola14.github.io/
+## My portfolio website
