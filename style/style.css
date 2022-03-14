@@ -364,6 +364,7 @@ footer h5 {
 
 #about-me .web-tech {
   font-weight: bold;
+  margin: 0 auto;
 }
 
 #about-me a:hover {
