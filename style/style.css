@@ -474,7 +474,7 @@ footer h5 {
 @media (max-width: 991.98px) {
   #projects {
     padding: 1.875em 0;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 }
