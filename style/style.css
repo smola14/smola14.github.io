@@ -308,6 +308,10 @@ footer h5 {
   }
 }
 
+#home {
+  height: 100vh;
+}
+
 #hero .row {
   margin-top: 9.375em;
 }
