@@ -52,28 +52,13 @@
   text-transform: none;
 }
 
-@media (max-width: 1200px) {
-  #projects {
-    .container {
-      width: 100%;
-    }
-  }
-
-  .row .card {
-    height: em(220) !important;
-  }
-}
-
-@media (max-width: 900px) {
-  .row .card {
-    height: em(260) !important;
-  }
-}
-
 @media (max-width: 991.98px) {
   #projects {
     padding: em(30) 0;
-    width: 100%;
     margin: 0 auto;
+
+    .container {
+      width: 100%;
+    }
   }
 }
