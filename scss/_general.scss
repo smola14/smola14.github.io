@@ -66,3 +66,9 @@ form {
     scroll-margin-top: em(-30);
   }
 }
+
+@media (min-width: 1399px) {
+  .mobile-break {
+    display: none;
+  }
+}

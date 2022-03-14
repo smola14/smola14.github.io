@@ -79,6 +79,12 @@ form {
   }
 }
 
+@media (min-width: 1399px) {
+  .mobile-break {
+    display: none;
+  }
+}
+
 h2 {
   font-family: 'PT Serif', serif;
   text-transform: uppercase;
