@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="sk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>smola_webdev</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/93688b5f7d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- 100VH WRAPPER -->
+      <section id="home">
+        <!-- HEADER NAV -->
+        <header>
+          <nav>
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+            <ul>
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#about-me">Me, web developer</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+          </nav>
+          <div class="menu"><i class="fa-solid fa-bars"></i></div>
+        </header>
+
+        <!-- HERO TITLE -->
+        <div id="hero">
+          <div class="row">
+            <div class="col-12 col-lg-8" id="title">
+              <h1>
+                <span id="first">Hello World!</span><br />
+                <span id="second"
+                  >Do you have an idea in your head and need to
+                  <span class="color-primary">digitalize</span>into a website?
+                  <br class="mobile-break" />You're in the right place!</span
+                ><br />
+                <span id="third">Frontend Developer</span><br />
+              </h1>
+            </div>
+            <div class="col-lg-4">
+              <lottie-player
+                src="https://assets8.lottiefiles.com/packages/lf20_eirrbcll.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+          </div>
+          <div class="wrapper-circle">
+            <span class="down-circle">
+              <i class="fa-solid fa-circle"></i>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT ME SECTION -->
+      <section id="about-me">
+        <h2 class="text-center mb-6" data-aos="zoom-in">
+          <span>Me, web-developer</span>
+        </h2>
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-lg-6 left">
+            <p class="lead">
+              My name is Dominik Smolinský and I am dedicated to frontend web
+              technologies.
+            </p>
+            <p class="lead">
+              I create websites and website apps that are responsive, which
+              means they display well on both desktop and laptop computers, as
+              well as on mobile phones. They are also fast and have a modern
+              design. You can see my finished websites and apps
+              <a href="#projects"><em>dow bellow</em></a
+              >. Are you interested in my services? Do not hesitate to
+              <a href="#footer"><em>contact me</em></a> !
+            </p>
+            <h5>Web technologies I work with:</h5>
+            <div class="row web-tech">
+              <div class="col-4">Vue</div>
+              <div class="col-4">Sass</div>
+              <div class="col-4">Bootstrap</div>
+              <div class="col-4">Javascript</div>
+              <div class="col-4">Git/Github</div>
+              <div class="col-4">Strapi</div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img src="photo.jpg" alt="photo" class="img-fluid rounded" />
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="services">
+        <h2 class="text-center mb-6" data-aos="zoom-in">
+          <span>Services</span>
+        </h2>
+        <div class="d-flex">
+          <div class="row text-center justify-content-around">
+            <div class="col-12 col-lg-3">
+              <h5>Develop websites</h5>
+              <img class="img-fluid" src="/static.svg" alt="" />
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>Redesign of websites</h5>
+              <img class="img-fluid" src="/dizajn.svg" alt="" />
+            </div>
+            <div class="col-12 col-lg-3">
+              <h5>Administration of websites</h5>
+              <img class="img-fluid" src="/programming.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects">
+        <h2 class="text-center mb-6" data-aos="zoom-in">
+          <span>Projects</span>
+        </h2>
+        <div class="row container">
+          <div class="col-lg-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">My portfolio</h5>
+                <h6 class="card-subtitle my-2">
+                  <span class="bootstrap me-2">
+                    <i class="devicon-bootstrap-plain"></i> Bootstrap
+                  </span>
+                  <span class="javascript">
+                    <i class="devicon-javascript-plain"></i> Javascript
+                  </span>
+                </h6>
+                <p class="card-text">
+                  One of my first pages you're going through right now.
+                </p>
+                <a
+                  href="https://github.com/smola14/smola14.github.io"
+                  target="_blank"
+                  class="card-link-github"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Maturita-formalita</h5>
+                <h6 class="card-subtitle my-2">
+                  <span class="javascript">
+                    <i class="devicon-javascript-plain"></i> Javascript
+                  </span>
+                </h6>
+                <p class="card-text">
+                  A project for secondary school students to make learning
+                  easier for graduation exam. Directly on the site you can solve
+                  mathematical examples, and you will get direct feedback on
+                  them.
+                </p>
+                <a
+                  href="https://maturita-formalita.netlify.app/"
+                  target="_blank"
+                  class="card-link"
+                  >View this page!</a
+                >
+                <a
+                  href="https://github.com/smola14/maturita"
+                  target="_blank"
+                  class="card-link-github"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- SVG PRECHOD -->
+    <div class="prechod">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+
+    <footer id="footer" class="container-fluid">
+      <h2 class="text-center mb-5 pt-4">
+        <span
+          >Do you have a question for me or do you want to work with me?</span
+        >
+      </h2>
+      <div class="flex">
+        <div class="row justify-content-center text-center mt-5">
+          <div class="col-12 col-lg-3">
+            <h5>Write me <i class="fa-solid fa-envelope"></i></h5>
+            <p>dominik.smolinsky@icloud.com</p>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Call me <i class="fa-solid fa-phone"></i></h5>
+            <p>+421 915 513 727</p>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h5>Working <i class="fa-solid fa-clock"></i></h5>
+            <p>24/7</p>
+          </div>
+        </div>
+      </div>
+      <small>
+        <div class="copyright">Dominik Smolinský &copy; 2022</div>
+      </small>
+    </footer>
+    <i class="fa-solid fa-arrow-up"></i>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
