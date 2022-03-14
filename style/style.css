@@ -188,6 +188,15 @@ nav ul a:hover, nav ul a:active {
   font-size: 1.875em;
 }
 
+@media (max-width: 991.98px) {
+  .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.5625em 0.625em 0 0;
+  }
+}
+
 @media only screen and (min-width: 920px) {
   .menu {
     display: none !important;
@@ -231,13 +240,6 @@ nav ul a:hover, nav ul a:active {
 .nav-noactive {
   background-color: none;
   transition: all 0.5s;
-}
-
-.languages {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 1.5625em 1.25em 0 0;
 }
 
 .languages a {

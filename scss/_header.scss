@@ -63,6 +63,15 @@ nav {
   font-size: em(30);
 }
 
+@media (max-width: 991.98px) {
+  .languages {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: em(25) em(10) 0 0;
+  }
+}
+
 @media only screen and (min-width: 920px) {
   .menu {
     display: none !important;
@@ -112,10 +121,6 @@ nav {
 }
 
 .languages {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: em(25) em(20) 0 0;
   a {
     color: $color-white !important;
 
