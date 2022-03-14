@@ -392,6 +392,9 @@ footer h5 {
 }
 
 @media (max-width: 991.98px) {
+  #services {
+    padding: 1.875em 0;
+  }
   #services .row div:first-child,
   #services div:nth-child(2) {
     margin-bottom: 6.25em;
@@ -464,5 +467,13 @@ footer h5 {
 @media (max-width: 900px) {
   .row .card {
     height: 16.25em !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #projects {
+    padding: 1.875em 0;
+    width: 80%;
+    margin: 0 auto;
   }
 }

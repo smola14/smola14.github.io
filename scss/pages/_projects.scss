@@ -53,8 +53,10 @@
 }
 
 @media (max-width: 1200px) {
-  #projects .container {
-    width: 100%;
+  #projects {
+    .container {
+      width: 100%;
+    }
   }
 
   .row .card {
@@ -65,5 +67,13 @@
 @media (max-width: 900px) {
   .row .card {
     height: em(260) !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #projects {
+    padding: em(30) 0;
+    width: 80%;
+    margin: 0 auto;
   }
 }
