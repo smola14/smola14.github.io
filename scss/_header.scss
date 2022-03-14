@@ -112,6 +112,10 @@ nav {
 }
 
 .languages {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: em(25) em(20) 0 0;
   a {
     color: $color-white !important;
 
