@@ -14,10 +14,6 @@ header {
     cursor: pointer;
   }
 
-  .languages {
-    background-color: pink;
-  }
-
   li {
     white-space: nowrap;
   }
@@ -113,4 +109,14 @@ nav {
 .nav-noactive {
   background-color: none;
   transition: all 0.5s;
+}
+
+.languages {
+  a {
+    color: $color-white !important;
+
+    &:hover {
+      color: $color-primary !important;
+    }
+  }
 }

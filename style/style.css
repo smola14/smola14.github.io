@@ -141,10 +141,6 @@ header .menu {
   cursor: pointer;
 }
 
-header .languages {
-  background-color: pink;
-}
-
 header li {
   white-space: nowrap;
 }
@@ -235,6 +231,14 @@ nav ul a:hover, nav ul a:active {
 .nav-noactive {
   background-color: none;
   transition: all 0.5s;
+}
+
+.languages a {
+  color: #fff !important;
+}
+
+.languages a:hover {
+  color: #64ffda !important;
 }
 
 .prechod {
