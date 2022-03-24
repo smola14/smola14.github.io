@@ -461,7 +461,7 @@ footer h5 {
 .javascript {
   border-radius: 0.3125em;
   padding: 0.3125em 0.4375em;
-  background-color: rgba(239, 216, 29, 0.1);
+  background-color: rgba(239, 216, 29, 0.25);
   color: #efd81d;
   text-transform: none;
 }
@@ -469,8 +469,16 @@ footer h5 {
 .bootstrap {
   border-radius: 0.3125em;
   padding: 0.3125em 0.4375em;
-  background-color: rgba(121, 82, 179, 0.1);
+  background-color: rgba(121, 82, 179, 0.255);
   color: #7952b3;
+  text-transform: none;
+}
+
+.vue {
+  border-radius: 0.3125em;
+  padding: 0.3125em 0.4375em;
+  background-color: rgba(66, 184, 131, 0.25);
+  color: #42b883;
   text-transform: none;
 }
 

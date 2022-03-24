@@ -37,7 +37,7 @@
 .javascript {
   border-radius: em(5);
   padding: em(5) em(7);
-  background-color: rgba(239, 216, 29, 0.1);
+  background-color: rgba(239, 216, 29, 0.25);
   // font-weight: bold;
   color: #efd81d;
   text-transform: none;
@@ -46,9 +46,18 @@
 .bootstrap {
   border-radius: em(5);
   padding: em(5) em(7);
-  background-color: rgba(121, 82, 179, 0.1);
+  background-color: rgba(121, 82, 179, 0.25);
   // font-weight: bold;
   color: #7952b3;
+  text-transform: none;
+}
+
+.vue {
+  border-radius: em(5);
+  padding: em(5) em(7);
+  background-color: rgba(66, 184, 131, 0.25);
+  // font-weight: bold;
+  color: #42b883;
   text-transform: none;
 }
 
